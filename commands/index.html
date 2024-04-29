@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Deejay Bot - Extensive Command Set</title>
+  <meta name="description" content="Explore a comprehensive list of commands tailored to enhance your Discord server's music experience. From managing playback to accessing audio filters and retrieving track information, our bot offers a versatile range of functionalities. Whether you're adjusting volume, shuffling the queue, or seeking specific tracks, this bot provides the flexibility and control you need.">
+  <meta name="thumbnail" content="https://cdn.discordapp.com/avatars/734590862620753970/cda6be21460d1701870bd557489d986b.png?size=1024">
+  <meta name="author" content="Lakhindar Pal">
+  <meta name="theme-color" content="#5865f5">
+  <meta property="og:url" content="https://deejay-bot.github.io/commands">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Deejay Bot - Extensive Command Set">
+  <meta property="og:image" content="https://cdn.discordapp.com/avatars/734590862620753970/cda6be21460d1701870bd557489d986b.png?size=1024">
+  <meta property="og:description" content="Explore a comprehensive list of commands tailored to enhance your Discord server's music experience. From managing playback to accessing audio filters and retrieving track information, our bot offers a versatile range of functionalities. Whether you're adjusting volume, shuffling the queue, or seeking specific tracks, this bot provides the flexibility and control you need.">
+  <meta property="og:site_name" content="Deejay Bot">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:url" content="https://deejay-bot.github.io/commands">
+  <meta name="twitter:title" content="Deejay Bot - Extensive Command Set">
+  <meta name="twitter:description" content="Explore a comprehensive list of commands tailored to enhance your Discord server's music experience. From managing playback to accessing audio filters and retrieving track information, our bot offers a versatile range of functionalities. Whether you're adjusting volume, shuffling the queue, or seeking specific tracks, this bot provides the flexibility and control you need.">
+  <meta name="twitter:image" content="https://cdn.discordapp.com/avatars/734590862620753970/cda6be21460d1701870bd557489d986b.png?size=1024">
+  <link rel="stylesheet" href="../styles.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <a href="/"><img src="https://cdn.discordapp.com/avatars/734590862620753970/cda6be21460d1701870bd557489d986b.png?size=32" alt="Logo"></a>
+      <a href="/commands">Commands</a>
+      <a href="/invite">Invite</a>
+      <a href="/support">Support</a>
+    </nav>
+    <search>
+      <input type="search" placeholder="Search a command ...">
+      <div id="categories">
+        <button class="cat-btn active">All</button>
+        <button class="cat-btn">Music</button>
+        <button class="cat-btn">Filter</button>
+        <button class="cat-btn">Misc</button>
+      </div>
+    </search>
+    <hr>
+  </header>
+  <main>
+    <section id="commands">
+      <h2>All Commands</h2>
+      <div>
+        <article class="cmd-wrapper" data-category="music">
+          <h3 class="cmd-name">/volume</h3>
+          <div class="cmd-content">
+            <p class="cmd-description">Check or change the volume</p>
+          </div>
+        </article>
+        <article class="cmd-wrapper" data-category="music">
+          <h3 class="cmd-name">/trackinfo</h3>
+          <div class="cmd-content">
+            <p class="cmd-description">Show details of a track.</p>
+          </div>
+        </article>
+        <article class="cmd-wrapper" data-category="music">
+          <h3 class="cmd-name">/swap</h3>
+          <div class="cmd-content">
+            <p class="cmd-description">Swap two tracks in the queue</p>
+          </div>
+        </article>
+        <article class="cmd-wrapper" data-category="music">
+          <h3 class="cmd-name">/stop</h3>
+          <div class="cmd-content">
+            <p class="cmd-description">Stop the playback.</p>
+          </div>
+        </article>
+        <article class="cmd-wrapper" data-category="music">
+          <h3 class="cmd-name">/skipto</h3>
+          <div class="cmd-content">
+            <p class="cmd-description">Skip to the given track, removing others on the way</p>
+          </div>
+        </article>
+        <article class="cmd-wrapper" data-category="music">
+          <h3 class="cmd-name">/skip</h3>
+          <div class="cmd-content">
+            <p class="cmd-description">Skip current track</p>
+          </div>
+        </article>
+        <article class="cmd-wrapper" data-category="music">
+          <h3 class="cmd-name">/shuffle</h3>
+          <div class="cmd-content">
+            <p class="cmd-description">Shuffle the queue.</p>
+          </div>
+        </article>
+        <article class="cmd-wrapper" data-category="music">
+          <h3 class="cmd-name">/seek</h3>
+          <div class="cmd-content">
+            <p class="cmd-description">Seek the player</p>
+          </div>
+        </article>
+        <article class="cmd-wrapper" data-category="music">
+          <h3 class="cmd-name">/resume</h3>
+          <div class="cmd-content">
+            <p class="cmd-description">Resume the playback</p>
+          </div>
+        </article>
+        <article class="cmd-wrapper" data-category="music">
+          <h3 class="cmd-name">/replay</h3>
+          <div class="cmd-content">
+            <p class="cmd-description">Replay the current track.</p>
+          </div>
+        </article>
+        <article class="cmd-wrapper" data-category="music">
+          <h3 class="cmd-name">/repeat</h3>
+          <div class="cmd-content">
+            <p class="cmd-description">Set repeat mode for the queue</p>
+          </div>
+        </article>
+        <article class="cmd-wrapper" data-category="music">
+          <h3 class="cmd-name">/remove</h3>
+          <div class="cmd-content">
+            <p class="cmd-description">Remove a track from queue</p>
+          </div>
+        </article>
+        <article class="cmd-wrapper" data-category="music">
+          <h3 class="cmd-name">/queue</h3>
+          <div class="cmd-content">
+            <p class="cmd-description">Show tracks in the queue.</p>
+          </div>
+        </article>
+        <article class="cmd-wrapper" data-category="music">
+          <h3 class="cmd-name">/play</h3>
+          <div class="cmd-content">
+            <p class="cmd-description">Play a track or playlist from url or name</p>
+          </div>
+        </article>
+        <article class="cmd-wrapper" data-category="music">
+          <h3 class="cmd-name">/pause</h3>
+          <div class="cmd-content">
+            <p class="cmd-description">Pause the playback</p>
+          </div>
+        </article>
+        <article class="cmd-wrapper" data-category="music">
+          <h3 class="cmd-name">/nowplaying</h3>
+          <div class="cmd-content">
+            <p class="cmd-description">Show the currently playing track.</p>
+          </div>
+        </article>
+        <article class="cmd-wrapper" data-category="music">
+          <h3 class="cmd-name">/move</h3>
+          <div class="cmd-content">
+            <p class="cmd-description">Move a track in the queue</p>
+          </div>
+        </article>
+        <article class="cmd-wrapper" data-category="music">
+          <h3 class="cmd-name">/lyrics</h3>
+          <div class="cmd-content">
+            <p class="cmd-description">Get lyrics for a track.</p>
+          </div>
+        </article>
+        <article class="cmd-wrapper" data-category="music">
+          <h3 class="cmd-name">/jump</h3>
+          <div class="cmd-content">
+            <p class="cmd-description">Jump to specific track on the queue without removing other tracks</p>
+          </div>
+        </article>
+        <article class="cmd-wrapper" data-category="music">
+          <h3 class="cmd-name">/filters</h3>
+          <div class="cmd-content">
+            <p class="cmd-description">Audio filters commands</p>
+          </div>
+        </article>
+        <article class="cmd-wrapper" data-category="music">
+          <h3 class="cmd-name">/clear</h3>
+          <div class="cmd-content">
+            <p class="cmd-description">Clear the tracks in the queue.</p>
+          </div>
+        </article>
+        <article class="cmd-wrapper" data-category="music">
+          <h3 class="cmd-name">/back</h3>
+          <div class="cmd-content">
+            <p class="cmd-description">Play the history track</p>
+          </div>
+        </article>
+        <article class="cmd-wrapper" data-category="misc">
+          <h3 class="cmd-name">/uptime</h3>
+          <div class="cmd-content">
+            <p class="cmd-description">Return the uptime of the bot</p>
+          </div>
+        </article>
+        <article class="cmd-wrapper" data-category="misc">
+          <h3 class="cmd-name">/support</h3>
+          <div class="cmd-content">
+            <p class="cmd-description">Join the support server and get some help</p>
+          </div>
+        </article>
+        <article class="cmd-wrapper" data-category="misc">
+          <h3 class="cmd-name">/ping</h3>
+          <div class="cmd-content">
+            <p class="cmd-description">Ping? Pong!</p>
+          </div>
+        </article>
+        <article class="cmd-wrapper" data-category="misc">
+          <h3 class="cmd-name">/invite</h3>
+          <div class="cmd-content">
+            <p class="cmd-description">Invite the bot to your server</p>
+          </div>
+        </article>
+        <article class="cmd-wrapper" data-category="misc">
+          <h3 class="cmd-name">/botinfo</h3>
+          <div class="cmd-content">
+            <p class="cmd-description">Get some info about the bot</p>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+  <hr>
+  <footer>
+    <div>
+      <a href="/support">Support</a>
+      <a href="/terms">Terms</a>
+      <a href="/privacy">Privacy</a>
+      <a href="https://github.com/LakhindarPal/discord-player-bot" target="_blank" rel="noopener noreferrer">GitHub</a>
+    </div>
+    <p>Made with ❤️ by <a href="https://lakhindar.is-a.dev" target="_blank" rel="noopener noreferrer">Lakhindar</a></p>
+  </footer>
+</body>
+
+</html>
